@@ -1,6 +1,8 @@
+dependencies:
+  lz-string: 1.4.4
 devDependencies:
   parcel-bundler: 1.12.3
-lockfileVersion: 5
+lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.0.0:
     dependencies:
@@ -2998,6 +3000,11 @@ packages:
     dev: true
     resolution:
       integrity: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==
+  /lz-string/1.4.4:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=
   /magic-string/0.22.5:
     dependencies:
       vlq: 0.2.3
@@ -5071,4 +5078,5 @@ packages:
     resolution:
       integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
 specifiers:
+  lz-string: ^1.4.4
   parcel-bundler: ^1.12.3
